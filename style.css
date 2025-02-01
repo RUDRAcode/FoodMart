@@ -395,7 +395,7 @@ h1,h2,h3,h4,h5,h6 {
   background: #FFC43F;
 }
 .banner-ad .swiper-slide {
-  min-height: 630px;
+  min-height: 594px;
   display: flex;
 }
 /* .banner-ad .banner-content {
@@ -537,7 +537,19 @@ h1,h2,h3,h4,h5,h6 {
   /* border: none; */
   border-bottom: 3px solid var(--accent-color);
 }
-
+.category_banner{
+  background-image: url('./images//chinese_background.jpg');
+  object-fit: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -200px;
+  margin-top: 0.5px;
+}
+.header_banner{
+  background-image: url('./images//chinese_header.jpg');
+  object-fit: contain;
+  background-size: cover;
+}
 /* product-grid */
 /* .product-grid {
   gap: 25px;
@@ -550,10 +562,11 @@ h1,h2,h3,h4,h5,h6 {
   box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.04);
   border-radius: 16px;
   margin-bottom: 30px;
-  transition: box-shadow 0.3s ease-out;
+  transition: box-shadow,scale 0.5s ease-in;
 }
 .product-item:hover {
   box-shadow: 0px 21px 44px rgba(0, 0, 0, 0.08);
+  scale:1.04;
 }
 .product-item h3 {
   display: block;
