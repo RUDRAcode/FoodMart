@@ -141,7 +141,7 @@ body {
   --bs-primary: #FFC43F;
   --bs-primary-rgb: 255, 196, 63;
 
-  --bs-success: #a3be4c;
+  --bs-success: #be4c4c;
   --bs-success-rgb: 163, 190, 76;
   
   --bs-primary-bg-subtle: #FFF9EB;
@@ -543,7 +543,7 @@ h1,h2,h3,h4,h5,h6 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: -200px;
-  margin-top: 0.5px;
+
 }
 .header_banner{
   background-image: url('./images//chinese_header.jpg');
